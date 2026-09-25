@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-uk-charity-commission",
+  "version": "0.1.0",
+  "description": "UK Register of Charities from the Charity Commission for England and Wales: look up any registered charity's status, objects, areas of operation, reported income and expenditure year by year, and its named trustees.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-uk-charity-commission": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uk-charity-commission"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-uk-charity-commission.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-967c5c91004347887b612068e2ed05d9095682e3372520e3017fe97e74f14430",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
