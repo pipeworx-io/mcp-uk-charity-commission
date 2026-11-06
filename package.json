@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uk-charity-commission",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "UK Register of Charities from the Charity Commission for England and Wales: look up any registered charity's status, objects, areas of operation, reported income and expenditure year by year, and its named trustees.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "uk-charity-commission",
     "gatewaySlug": "uk-charity-commission",
-    "sourceHash": "v1-cca0efc25a40094bc3877e56a76a7ff8aaee481753f787aae9443eee6bc90d11",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-c6dc482420c4876e40eed7c485816d9b74fccf896b636d0d2306cac41b1e8d07",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
